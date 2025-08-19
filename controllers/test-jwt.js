@@ -6,7 +6,7 @@ router.get("/sign-token", (req, res) => {
   const user = {
     _id: 1,
     username: "test",
-    password: "test",
+    hashedPassword: "test",
   };
 
   // creating jwt token
